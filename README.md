@@ -21,7 +21,7 @@ BookStore  supports following functionality:
 <li>Sell List of Books:The end point is “/api/sell-books”. Here the List of SellDto object is passed on request body. SellDto object specifies the book id and the number of copies of that book, we want to sell. If there is enough book, it throws exception.</li>
 <li>Get books by category and keyword: The end point is “/api/books?keyword=keyword&category=category”. It has two request param-keyword and category. Category represents the 9 categories of books. Keyword is assumed to be any group of strings in id, author or title.</li>
 <li>Get Number of books sold per category and keyword: The end point is “/api/number-of-books?keyword=keyword&category=category”.</li>
-<li>Unit Tests: The unit test is done in service and controller level. In Controller level, the unit test is done using mockMvc, Mockito and junit. In Service level, the unit test is done using junit.  It has over 86% line code coverage. Jacoco can also be used to generate unit test report. For more information on jacoco look into step 8 of section:Steps to run the application.</li>
+<li>Unit Tests: The unit test is done in service and controller level. In Controller level, the unit test is done using mockMvc, Mockito and junit. In Service level, the unit test is done using junit.  It has over 89% line code coverage. Jacoco can also be used to generate unit test report. For more information on jacoco look into step 8 of section:Steps to run the application.</li>
 </ul>
 
 ---
