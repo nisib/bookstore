@@ -25,7 +25,7 @@ BookStore  supports following functionality:
 </ul>
 
 ---
-#Tools/Framework
+# Tools/Framework
 <ul>
 <li>MYSQL: MYSQL is a open-source relational database management system.</li>
 <li>JPA: Java Persistence API(JPA) is a Java programming interface specification that describes the management of relational data in applications using Java Platform.</li>
@@ -36,8 +36,8 @@ BookStore  supports following functionality:
 <li>Swagger: Swagger is open-source framework that helps developers design, build, document and consume RESTful Web services.</li>
 </ul>
 
---
-##Steps To Run The Application
+---
+# Steps To Run The Application
 <ul>
 <li>This project uses project Lombok. So, if you do not have Lombok plugins inserted into your IDE, please install it into your IDD.</li>
 <li>Install MySQL in your laptop if you do not have one. You can download it from here: https://www.mysql.com/downloads/</li>
@@ -45,8 +45,9 @@ BookStore  supports following functionality:
 <li>Now in your IDE, open the application.yaml file, change the spring datasource url, username and password. Right now the spring datasource url=”jdbc:mysql://localhost:3306/bookstore” which is likely to be same in your case too. If not please put on your datasource url. Right now Spring datasource name is “root” and password is “admin” which is likely to change in your case. Please put on your database username and password in these fields.</li>
 <li>Now you can run your application. The table “book” will be automatically created in “bookstore”. By default, it runs in port:9999. You can open up the swagger ui from  following url: http://localhost:9999/swagger-ui.html .</li>
 <li>Once you have set up your database, you can also run the unit tests.</li>
-<li>8)	You can also use jacoco plugins to generate unit test reports. For that go to the project root folder and run the following two commands in command prompt:
-    a)	mvn clean test
-    b)	mvn jacoco:report
+<li>You can also use jacoco plugins to generate unit test reports. For that go to the project root folder and run the following two commands in command prompt:
+    <ul><li>mvn clean test</li>
+    <li>mvn jacoco:report</li>
+    </ul>    
 </li>
 </ul>
