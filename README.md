@@ -1,6 +1,6 @@
 # BookStore
 Bookstore is a simple Java Spring Boot application to store and sell books. It stores and sells books of following categories:
-1)LITERATURE, 2) NONFICTION, 3)ACTION, 4)THRILLER, 5)TECHNOLOGY, 6)DRAMA, 7)POETRY, 8)MEDIA, 9) OTHERS
+1)LITERATURE, 2) NONFICTION, 3)ACTION, 4)THRILLER, 5)TECHNOLOGY, 6)DRAMA, 7)POETRY, 8)MEDIA, 9) OTHERS.
 In a java project, these categories are arranged in constants folder as an enum.
 
 ---
