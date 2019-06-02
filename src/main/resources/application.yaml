@@ -1,0 +1,17 @@
+server:
+  port: 9999
+spring:
+  application:
+    name: bookstore
+  datasource:
+    url: jdbc:mysql://localhost:3306/bookstore
+    username: root
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.MySQL5Dialect
+    generate-ddl: true
+    show-sql: true
+
+
